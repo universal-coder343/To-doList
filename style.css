@@ -8,6 +8,7 @@
   --accent-dim: #00ff8822;
   --border: #2a2a2a;
   --danger: #ff3366;
+  --bg-img: "https://wallpapers-clan.com/wp-content/uploads/2025/04/pastel-sky-leaves-dreamy-sunset-aesthetic-desktop-wallpaper-preview.jpg"
 }
 
 * {
@@ -17,7 +18,7 @@
 }
 body {
   font-family: "JetBrains Mono", monospace;
-  background: var(--bg-primary);
+  background: var(--bg-img);
   color: var(--text-primary);
   min-height: 100vh;
   overflow-x: hidden;
